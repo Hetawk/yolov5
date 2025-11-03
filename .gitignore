@@ -41,6 +41,15 @@ results*.csv
 coco/
 coco128/
 VOC/
+dataset/**/train/images/
+dataset/**/train/labels/
+dataset/**/valid/images/
+dataset/**/valid/labels/
+dataset/**/test/images/
+dataset/**/test/labels/
+dataset/**/token.txt
+!dataset/**/data.yaml
+!dataset/**/README*.txt
 
 # MATLAB GitIgnore -----------------------------------------------------------------------------------------------------
 *.m~

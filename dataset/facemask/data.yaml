@@ -1,0 +1,14 @@
+path: dataset/facemask
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['WithMask', 'WithOutMask']
+
+roboflow:
+  workspace: project0-ju8av
+  project: mask-detection-h1gxk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project0-ju8av/mask-detection-h1gxk/dataset/1
